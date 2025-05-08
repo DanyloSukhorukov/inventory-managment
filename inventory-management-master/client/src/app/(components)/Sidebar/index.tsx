@@ -82,8 +82,8 @@ const Sidebar = () => {
         }`}
       >
         <Image
-          src="https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/logo.png"
-          alt="edstock-logo"
+          src="https://managment-hapis-s3-norepeat.s3.eu-west-1.amazonaws.com/logo.png"
+          alt="logo"
           width={27}
           height={27}
           className="rounded w-8"
@@ -146,7 +146,7 @@ const Sidebar = () => {
 
       {/* FOOTER */}
       <div className={`${isSidebarCollapsed ? "hidden" : "block"} mb-10`}>
-        <p className="text-center text-xs text-gray-500">&copy; 2024 Edstock</p>
+        <p className="text-center text-xs text-gray-500">&copy; 2025 IUSTm-24-1</p>
       </div>
     </div>
   );
